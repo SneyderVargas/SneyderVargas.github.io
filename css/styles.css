@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    background-color: rgb(196, 251, 255);
+    
+    }
+    nav{
+        background-color: rgb(185, 183, 201);
+    
+    }
+    section{
+    background-color: #7ea047;
+    grid-column: 1/4;
+    }
+    aside{
+        grid-column: 4/5;
+        background-color: #ac4ba7;
+        
+        
+    }
+    footer{
+        background-color: #8a4a63;
+    
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
